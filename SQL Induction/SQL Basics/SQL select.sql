@@ -1,2 +1,2 @@
 --displays First name, Last name, Designation of the employees from the employee table
-select fname,lname,desig from employee
+select e.first_name, e.last_name,d.designation from employee e, designation d where e.department_id=d.designation_id

@@ -1,2 +1,2 @@
 --displays details of employees whose salaries are more than 50000 and age is less than 35
-select * from employee where salary > 50000 and age < 35
+select * from employee e,employee_salary es where es.basic_salary > 50000 and e.age < 35 and e.salary_id=es.salary_id
