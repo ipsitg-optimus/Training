@@ -13,7 +13,7 @@ create table employee_salary (salary_id int PRIMARY KEY, basic_salary int,house_
 --creates 
 --new table named employee with columns employee_id as primary key, first_name, last_name, designation_id as foreign key from designation table,department_id as foreign key from departmant table, salary_id as foreign key from employee_salary table, age, sex, active and half_yearly_grade with designation 
 --having default value "Trainee" and age having default value "18".
-create table employee (employee_id int PRIMARY KEY, first_name varchar(50),last_name varchar(50),designation_id int DEFAULT 1,department_id int,salary_id int,age int default 18,sex char(1),active bit, half_yearly_grade int,FOREIGN KEY (designation_id) REFERENCES designation(designation_id),FOREIGN KEY(salary_id) REFERENCES employee_salary(salary_id),FOREIGN KEY(department_id) REFERENCES department(department_id))
+create table employee (employee_id int PRIMARY KEY, first_name varchar(50),last_name varchar(50),designation_id int DEFAULT 1,department_id int NULL,salary_id int,age int default 18,sex char(1),active bit, half_yearly_grade int,FOREIGN KEY (designation_id) REFERENCES designation(designation_id),FOREIGN KEY(salary_id) REFERENCES employee_salary(salary_id),FOREIGN KEY(department_id) REFERENCES department(department_id))
 
 --creates
 --new table named orders with columns order_id as primary key, order_date, order_name, customer_name
