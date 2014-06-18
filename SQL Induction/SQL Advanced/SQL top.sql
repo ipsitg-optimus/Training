@@ -1,0 +1,2 @@
+--displays top 3 salaries of all records in employee table
+select top 3 id.basic_salary from employee e,(select * from employee_salary ) as id where id.salary_id=e.salary_id order by id.basic_salary desc
