@@ -1,2 +1,2 @@
 --displays details of employees whose salaries are less than 50000 and designation are Manager/Tech Lead
-select * from employee e,employee_salary es where es.basic_salary > 50000 and (e.designation_id=3 or e.designation_id=4) and e.salary_id=es.salary_id
+select * from employee e,employee_salary es where es.basic_salary > 50000 and (e.designation_id=(select designation_id from designation where designation='Manager') or e.designation_id=(select designation_id from designation where designation='Technical Leader')) and e.salary_id=es.salary_id
