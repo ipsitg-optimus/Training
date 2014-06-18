@@ -8,7 +8,7 @@ create table department (department_id int PRIMARY KEY,department_name varchar(5
 
 --creates 
 --new table named employee_salary with columns salary_id as primary key, basic_salary, house_rentals, daily_allowances and gross_salary
-create table employee_salary (salary_id int PRIMARY KEY, basic_salary int,house_rentals int, daily_allowance int, gross_salary int)
+create table employee_salary (salary_id int PRIMARY KEY, basic_salary int CHECK(basic_salary > 0),house_rentals int, daily_allowance int, gross_salary int)
 
 --creates 
 --new table named employee with columns employee_id as primary key, first_name, last_name, designation_id as foreign key from designation table,department_id as foreign key from departmant table, salary_id as foreign key from employee_salary table, age, sex, active and half_yearly_grade with designation 
@@ -21,4 +21,4 @@ create table orders (order_id int PRIMARY KEY, order_date date NOT NULL, order_n
 
 --creates 
 --new table named employee_slabs with columns designation_id as foreign key from designation table, min_salary, max_salary
-create table employee_slabs (designation_id int, min_salary int NOT NULL,max_salary int NOT NULL,FOREIGN KEY(designation_id) REFERENCES designation(designation_id))
+create table employee_slabs (designation_id int UNIQUE, min_salary int NOT NULL,max_salary int NOT NULL,FOREIGN KEY(designation_id) REFERENCES designation(designation_id))

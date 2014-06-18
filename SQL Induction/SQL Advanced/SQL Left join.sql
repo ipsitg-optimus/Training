@@ -1,0 +1,2 @@
+--displays details of employees from employee and employee_slabs tables with left join on department_id column
+select * from employee LEFT JOIN department on employee.department_id=department.department_id

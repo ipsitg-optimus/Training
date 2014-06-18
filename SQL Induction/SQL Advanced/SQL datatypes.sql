@@ -1,0 +1,2 @@
+--Calculates 12.75 % of salary as pf for all employees and display it in decimals with 2 digits after decimal point
+select COnvert(decimal(12,2),basic_salary*0.1275,100) as 'Provident Fund'  from employee_salary
