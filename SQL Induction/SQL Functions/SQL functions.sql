@@ -55,4 +55,4 @@ select first_name,last_name,CASE WHEN es.basic_salary > 50000 THEN 'Yes' ELSE 'N
 select top 5 * from employee join employee_salary on employee.salary_id=employee_salary.salary_id order by basic_salary desc 
 
 --display top 5 alternate highest paid employees
-select top 5 ROW_NUMBER() over(order by basic_salary desc)  as Row,* from employee join employee_salary on employee.salary_id=employee_salary.salary_id  order by basic_salary desc
+select e.first_name,e.last_name, es.basic_salary from employee e, (select top 10 basic_salary,salary_id,DENSE_RANK() over(order by basic_salary desc) as row_num   from employee_salary ) es where es.row_num%2=1 and e.salary_id=es.salary_id order by basic_salary desc
