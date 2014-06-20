@@ -1,0 +1,1 @@
+select isnull(Emp_f_name,'')+' '+isnull(Emp_m_name,'')+' '+isnull(Emp_l_name,'') as Name,Emp_DOB as 'Date of Birth' from t_emp where dbo.check_last_day(Emp_DOB)='True'
