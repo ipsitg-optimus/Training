@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<ArrayOfStudent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Student>
+    <roll_number>12345</roll_number>
+    <name>Ipsit Gaur</name>
+    <totalmarks>80</totalmarks>
+  </Student>
+  <Student>
+    <roll_number>1234</roll_number>
+    <name>ABCD</name>
+    <totalmarks>70</totalmarks>
+  </Student>
+  <Student>
+    <roll_number>123</roll_number>
+    <name>XYZ</name>
+    <totalmarks>60</totalmarks>
+  </Student>
+  <Student>
+    <roll_number>12</roll_number>
+    <name>PQR</name>
+    <totalmarks>90</totalmarks>
+  </Student>
+</ArrayOfStudent>

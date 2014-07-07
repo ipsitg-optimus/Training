@@ -1,0 +1,2 @@
+The given code will not run as class CollegeStudent has no member named _age
+and it is also not derived from class Student.

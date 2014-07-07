@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Student xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <roll_number>12345</roll_number>
+  <name>Ipsit Gaur</name>
+  <totalmarks>80</totalmarks>
+</Student>

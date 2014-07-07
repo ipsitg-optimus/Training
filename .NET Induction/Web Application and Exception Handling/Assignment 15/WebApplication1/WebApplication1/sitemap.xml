@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>http://localhost:50223/Login.aspx</loc>
+		<loc>http://localhost:50223/AboutUs.aspx</loc>
+		<loc>http://localhost:50223/ExtraCurr.aspx</loc>
+		<loc>http://localhost:50223/Welcome.aspx</loc>
+		<loc>http://localhost:50223/TechNews.aspx</loc>
+	</url>
+</urlset>
+

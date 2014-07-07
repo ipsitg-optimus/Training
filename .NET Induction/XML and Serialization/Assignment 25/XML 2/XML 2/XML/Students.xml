@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<students>
+	<student id="100026">
+		<name>Joe Average</name>
+		<age>21</age>
+		<major>MCA</major>
+		<result course="Math 101" grade="D"/>
+	</student>
+	<student id="100052">
+		<name>Alex paschal</name>
+		<age>22</age>
+		<major>B.Tech</major>
+		<result course="Math 101" grade="C"/>
+	</student>
+	<student id="100067">
+		<name>Ramesh lal</name>
+		<age>23</age>
+		<major>MCA</major>
+		<result course="Math 101" grade="D"/>
+	</student>
+	<student id="100098">
+		<name>Peter</name>
+		<age>24</age>
+		<major>B.Tech</major>
+		<result course="Math 101" grade="C"/>
+	</student>
+	<student id="100078">
+		<name>Jack Doe</name>
+		<age>18</age>
+		<major>Physics</major>
+		<result course="Math 101" grade="D"/>
+	</student>
+</students>

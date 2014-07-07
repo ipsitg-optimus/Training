@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="CSV.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div id="header" style="height: 120px; background-color: #396fcf; width: 100%;">
+                <table style="width: 100%;">
+                    <tr>
+                        <td style="width: 25%">&nbsp;</td>
+                        <td style="width: 25%">&nbsp;</td>
+                        <td style="width: 25%">&nbsp;</td>
+                        <td style="width: 25%">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr style="color: white">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>&nbsp;</td>
+                    </tr>
+                </table>
+            </div>
+            <table style="width: 100%;">
+                <tr>
+                    <td style="width: 20%;"></td>
+                    <td style="width: 60%;">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td style="width: 20%;"></td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>

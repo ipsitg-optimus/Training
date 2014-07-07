@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<students>
+	<student roll_number="100026">
+		<name>Joe Average</name>
+		<father_name>Alex Average</father_name>
+		<gender>Male</gender>
+		<age>21</age>
+		<stream>Computer Science</stream>
+		<state>Uttar Pradesh</state>
+	</student>
+	<student roll_number="100052">
+		<name>Alex paschal</name>
+		<father_name>Joe Paschal</father_name>
+		<gender>Male</gender>
+		<age>22</age>
+		<stream>Information Technology</stream>
+		<state>Uttar Pradesh</state>
+	</student>
+	<student roll_number="100067">
+		<name>Ramesh lal</name>
+		<father_name>Hira Lal</father_name>
+		<gender>Male</gender>
+		<age>23</age>
+		<stream>Computer Science</stream>
+		<state>Uttar Pradesh</state>
+	</student>
+	<student roll_number="100098">
+		<name>Peter</name>
+		<father_name>Paul</father_name>
+		<gender>Male</gender>
+		<age>24</age>
+		<stream>Information Technology</stream>
+		<state>Bihar</state>
+	</student>
+	<student roll_number="100078">
+		<name>Jack Doe</name>
+		<father_name>Alex Doe</father_name>
+		<gender>Male</gender>
+		<age>18</age>
+		<stream>Computer Science</stream>
+		<state>Bihar</state>
+	</student>
+</students>

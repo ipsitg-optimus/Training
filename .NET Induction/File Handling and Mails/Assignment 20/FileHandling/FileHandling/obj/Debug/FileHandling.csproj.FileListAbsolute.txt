@@ -1,0 +1,6 @@
+C:\Users\Administrator\Desktop\Training\.NET Induction\Web Application and Exception Handling\Assignment 17\FileHandling\FileHandling\bin\Debug\FileHandling.exe.config
+C:\Users\Administrator\Desktop\Training\.NET Induction\Web Application and Exception Handling\Assignment 17\FileHandling\FileHandling\bin\Debug\FileHandling.exe
+C:\Users\Administrator\Desktop\Training\.NET Induction\Web Application and Exception Handling\Assignment 17\FileHandling\FileHandling\bin\Debug\FileHandling.pdb
+C:\Users\Administrator\Desktop\Training\.NET Induction\Web Application and Exception Handling\Assignment 17\FileHandling\FileHandling\obj\Debug\FileHandling.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Training\.NET Induction\Web Application and Exception Handling\Assignment 17\FileHandling\FileHandling\obj\Debug\FileHandling.exe
+C:\Users\Administrator\Desktop\Training\.NET Induction\Web Application and Exception Handling\Assignment 17\FileHandling\FileHandling\obj\Debug\FileHandling.pdb

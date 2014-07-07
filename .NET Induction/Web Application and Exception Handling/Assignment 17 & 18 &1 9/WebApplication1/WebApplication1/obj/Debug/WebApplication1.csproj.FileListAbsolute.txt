@@ -1,0 +1,10 @@
+C:\Users\Administrator\Desktop\Training\.NET Induction\Web Application and Exception Handling\Assignment 17\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Training\.NET Induction\Web Application and Exception Handling\Assignment 17\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\Administrator\Desktop\Training\.NET Induction\Web Application and Exception Handling\Assignment 17\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\Administrator\Desktop\Training\.NET Induction\Web Application and Exception Handling\Assignment 17\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\Administrator\Desktop\Training\.NET Induction\Web Application and Exception Handling\Assignment 17\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\Administrator\Desktop\Training\.NET Induction\Web Application and Exception Handling\Assignment 17 & 18\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\Administrator\Desktop\Training\.NET Induction\Web Application and Exception Handling\Assignment 17 & 18\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\Administrator\Desktop\Training\.NET Induction\Web Application and Exception Handling\Assignment 17 & 18\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Training\.NET Induction\Web Application and Exception Handling\Assignment 17 & 18\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\Administrator\Desktop\Training\.NET Induction\Web Application and Exception Handling\Assignment 17 & 18\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb

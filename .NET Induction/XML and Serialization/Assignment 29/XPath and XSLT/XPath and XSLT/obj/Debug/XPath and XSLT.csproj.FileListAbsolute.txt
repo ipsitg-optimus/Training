@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\Training\.NET Induction\XML and Serialization\Assignment 29\XPath and XSLT\XPath and XSLT\bin\XPath and XSLT.dll
+C:\Users\Administrator\Desktop\Training\.NET Induction\XML and Serialization\Assignment 29\XPath and XSLT\XPath and XSLT\bin\XPath and XSLT.pdb
+C:\Users\Administrator\Desktop\Training\.NET Induction\XML and Serialization\Assignment 29\XPath and XSLT\XPath and XSLT\obj\Debug\XPath and XSLT.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Training\.NET Induction\XML and Serialization\Assignment 29\XPath and XSLT\XPath and XSLT\obj\Debug\XPath and XSLT.dll
+C:\Users\Administrator\Desktop\Training\.NET Induction\XML and Serialization\Assignment 29\XPath and XSLT\XPath and XSLT\obj\Debug\XPath and XSLT.pdb

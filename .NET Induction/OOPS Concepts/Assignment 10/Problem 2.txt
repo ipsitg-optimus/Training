@@ -1,0 +1,2 @@
+This code will run as the member _age is declared protected internal in class Student 
+and object of class Student itself is accessing that variable.

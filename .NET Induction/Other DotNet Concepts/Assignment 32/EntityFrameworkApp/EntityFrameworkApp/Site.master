@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" CodeBehind="Site.master.cs" Inherits="EntityFrameworkApp.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Dynamic Data Site</title>
+    <link href="~/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <h1 class="DDMainHeader">Dynamic Data Site</h1>
+    <div class="DDNavigation">
+        <%
+            if (Session["UserType"] != null)
+            {
+                if (Session["UserType"].ToString().Equals("0"))
+                {
+        %>
+        <a href="AddUser.aspx">Add User</a>
+        <a href="DeleteUser.aspx">Delete User</a>
+        <a href="UpdateUser.aspx">Update User</a>
+        <%
+                }
+        %>
+
+        <a href="UploadDoc.aspx">Upload Documents</a>
+        <a href="ViewDetails.aspx">View Users</a>
+        <%
+            }   
+        %>
+    </div>
+
+    <form id="form1" runat="server">
+        <div>
+            <%-- TODO: Enable partial rendering by setting the EnablePartialRendering attribute to "true" to provide a smoother browsing experience.
+             Leaving partial rendering disabled will provide a better debugging experience while the application is in development. --%>
+
+            <asp:ScriptManager runat="server" EnablePartialRendering="false">
+                <Scripts>
+                    <asp:ScriptReference Name="jquery" />
+                    <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" />
+                </Scripts>
+            </asp:ScriptManager>
+
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
+
